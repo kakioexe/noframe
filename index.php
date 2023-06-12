@@ -1,8 +1,10 @@
 <?php
+define("ROOT_PATH", __DIR__ . "/");
 
-require "../vendor/autoload.php";
+require ROOT_PATH . "vendor/autoload.php";
 
-//@kakioexe @sunvni echo "Hello!";`
+use App\Controller\HomeController;
 
-phpinfo();
+$controller = new HomeController();
 
+$controller->index();
