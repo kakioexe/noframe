@@ -2,7 +2,7 @@
 
 require "../vendor/autoload.php";
 
-echo "Hello!";`
+//@kakioexe @sunvni echo "Hello!";`
 
 phpinfo();
 
